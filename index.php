@@ -51,7 +51,7 @@ echo $arr_response->response->url;
 ?>
   <h1>Free url shortner</h1>
 <div class="contain">
-<form name="form1" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" >
+<form name="url" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" >
 <input type="text" name="longurl" size="50">
 <br>
 <input type="submit" name="submit" value="Short it!" >
