@@ -35,7 +35,7 @@ img{
 <body>
 <?php
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-
+$longurl=$_POST['longurl'];
 $url ='http://ulvis.net/api.php?url='.$longurl.'&private=1'; // longurl your url if want custom url them add &custom=your custom url
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET"); 
