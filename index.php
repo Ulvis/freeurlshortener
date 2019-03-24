@@ -11,9 +11,7 @@ h1 {
     font-size: 20px;
     font-weight: bold;
 }
-.lead {
-    font-style:italic;
-}
+
 .contain {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -25,11 +23,6 @@ img{
     margin:20px;
 }
 
-#tuto-faq p[role="presentation"] .glyphicon,
-#le-logiciel p[role="presentation"] .glyphicon,
-#jardin p[role="presentation"] .glyphicon {
-    font-size:50px;
-}
 </style>
 </head>
 <body>
