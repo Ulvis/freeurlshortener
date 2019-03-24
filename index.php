@@ -51,8 +51,7 @@ echo $arr_response->data->url;
 ?>
 
 <div class="contain">
-
-<form method="post">
+<form name="form1" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" >
 <input type="text" name="longurl" size="50">
 <br>
 <input type="submit" name="submit" value="Short it!" >
