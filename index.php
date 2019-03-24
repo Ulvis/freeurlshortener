@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>free url shortener</title>
 <style>
 body {
@@ -17,7 +18,11 @@ h1 {
     margin-bottom: 30px;
     padding: 20px 30px;
 }
-
+.url
+  {
+  margin-right: .2em;
+  text-align: center;
+  }
 img{
     width:85%; 
     margin:20px;
@@ -38,8 +43,9 @@ curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 $arr_result = curl_exec($ch);
  
 $arr_response = json_decode($arr_result);
- 
+ echo'<div class="url">';
 echo $arr_response->data->url;
+    echo'</div>';
 }
 
 ?>
