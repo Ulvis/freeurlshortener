@@ -34,7 +34,7 @@ img{
 <?php
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 $longurl=$_POST['longurl'];
-$url ='http://ulvis.net/api.php?url='.$longurl.'&private=1'; // longurl your url if want custom url them add &custom=your custom url
+$url ='http://ulvis.net/api.php?url='.$longurl.'&private=1&type=xml'; // longurl your url if want custom url them add &custom=your custom url
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET"); 
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -49,7 +49,7 @@ echo $arr_response->response->url;
 }
 
 ?>
-
+  <h1>Free url shortner</h1>
 <div class="contain">
 <form name="form1" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" >
 <input type="text" name="longurl" size="50">
