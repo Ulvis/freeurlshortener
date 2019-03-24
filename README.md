@@ -1,2 +1,2 @@
 # freeurlshortener #urlshortener
-free urls hortener  script used api
+free url shortener script used api
