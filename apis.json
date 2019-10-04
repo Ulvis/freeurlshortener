@@ -1,0 +1,77 @@
+
+	{
+	  "name": "Free url shortener API",
+	  "description": "Ulvis.net offers a powerful API to interact with other sites.",
+	  "image": "http://ulvis.net/logo.jpg",
+	  "tags": [
+	    "web application",
+	    "API",
+	    "News",
+	    "Analysis"
+	  ],
+	  "created": "2017-07-07",
+	  "modified": "2019-07-09",
+	  "url": "http://ulvis.net/api.json",
+	  "SpecificationVersion": "0.14",
+	  "apis":
+	      "properties": [
+	        {
+	          "type": "X-apicommonsmanifest",
+	          "url": "/manifest.json"
+	        }
+	      ],
+	      "contact": [
+	        {
+	          "FN": "free url shortener API ",
+	          "email": "ulvis@ulvis.net",
+	          "X-twitter": "ulvis_B"
+	        }
+	      ]
+	    },
+	    {
+	      "name": "APIs",
+	      "description": "Ulvis.net offers a powerful API to interact with other sites.",
+	      "image": "http://ulvis.net/logo.jpg",
+	      "humanURL": "https://ulvis.net/developer.html",
+	      "baseURL": "http://ulvis.net",
+	      "tags": [
+	        "application programming interface",
+	        "API"
+	      ],
+	      "properties": [
+	        {
+	          "type": "disclaimer",
+	          "url": "http://ulvis.net/disclaimer.html"
+	        },
+	        {
+	          "type": "privacy",
+	          "url": "http://ulvis.net/privacy.html"
+	        },
+               {
+	          "type": "contact",
+	          "url":  "https://ulvis.net/contact.html"
+	        }
+	      ],
+	      "contact": [
+	        {
+	          "FN": "free url shortener API ",
+	          "email": "ulvis@ulvis.net",
+	          "X-twitter": "Ulvis_B"
+	        }
+	      ]
+	    }
+	  ],
+	  "include": [
+	    {
+	      "name": "free url shortener API ",
+	      "url": "http://ulvis.net/api.json"
+	    }
+	  ],
+	  "maintainers": [
+	    {
+	      "FN": "Kin",
+	      "X-twitter": "ulvis_B",
+	      "email": "ulvis@ulvis.net"
+        }
+	  ]
+	}
