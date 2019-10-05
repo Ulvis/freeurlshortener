@@ -1,10 +1,8 @@
 http://ulvis.net
-site offers a powerful API to interact with other sites.
-# freeurlshortener #urlshortener #linkshortener ,#url , #api
 API
 
+site offers a powerful API to interact with other sites.
 
-Ulvis.net offers a powerful API to interact with other sites.
 
 Simple API
 GET requests: http://ulvis.net/api.php?url=YOUR-LONG-URL&custom=YOUR-CUSTOM-NAME&private=1
@@ -13,8 +11,8 @@ http://ulvis.net/P
 
 
 Write API Endpoints:
-GET requests: http://ulvis.net/API/write/get
-POST requets: http://ulvis.net/api/write/post
+GET requests: /API/write/get
+POST requets: /api/write/post
 
 Variables:
 
@@ -29,7 +27,7 @@ expire: date in format MM/DD/YYYY to expire url. optional
 via: Adds a signature to track your application. optional
 Example:
 
-http://ulvis.net/API/write/get?url=http://youtube.com&custom=mycustomname&private=1&type=xml
+http://ulvis.net/API/write/get?url=http://google.com/search?q=ulvis.net&custom=mycustomname&private=1&type=xml
 
 XML Response example:
 
@@ -38,7 +36,7 @@ XML Response example:
             <data>
                 <id>mycustomname</id>
                 <url>http://ulvis.net/mycustomname</url>
-                <full>http://youtube.com</full>
+                <full>http://google.com/search?q=ulvis.net</full>
                 <hits>0</hits>
                 <status>custom_new</status>
                 <via>api</via>
@@ -50,8 +48,8 @@ XML Response example:
 
 
 Read API Endpoints:
-GET requests: http://ulvis.net/API/read/get
-POST requets: http://ulvis.net/api/read/post
+GET requests: /API/read/get
+POST requets: /api/read/post
 Variables:
 
 You can pass up to three variables to control the response or your application.
@@ -60,7 +58,7 @@ password: password for url (if protected). optional.
 type: Response type (json|xml). optional, default: json.
 Example:
 
-http://ulvis.net/API/read/get?id=P&password=0000&private=1&type=xml
+ulvis.net/API/read/get?id=P&password=0000&private=1&type=xml
 
 XML Response example:
 
