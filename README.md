@@ -32,7 +32,7 @@ expire: date in format MM/DD/YYYY to expire url. optional
 via: Adds a signature to track your application. optional
 Example:
 
-http://ulvis.net/API/write/get?url=http://google.com/search?q=ulvis.net&custom=mycustomname&private=1&type=xml
+http://ulvis.net/API/write/get?url=https://google.com/search?q=ulvis.net&custom=mycustomname&private=1&type=xml
 
 XML Response example:
 
