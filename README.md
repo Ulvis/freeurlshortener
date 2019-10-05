@@ -11,8 +11,8 @@ http://ulvis.net/P
 
 
 Write API Endpoints:
-GET requests: /API/write/get
-POST requets: /api/write/post
+GET requests: ulvis.net/API/write/get
+POST requets: ulvis.net/api/write/post
 
 Variables:
 
@@ -48,8 +48,8 @@ XML Response example:
 
 
 Read API Endpoints:
-GET requests: /API/read/get
-POST requets: /api/read/post
+GET requests: ulvis.net/API/read/get
+POST requets: ulvis.net/api/read/post
 Variables:
 
 You can pass up to three variables to control the response or your application.
