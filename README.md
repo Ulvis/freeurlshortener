@@ -1,12 +1,14 @@
-http://ulvis.net
-API
+Free Url Shortener Api
 
+http://ulvis.net
 site offers a powerful API to interact with other sites.
 
 
 Simple API
 GET requests: http://ulvis.net/api.php?url=YOUR-LONG-URL&custom=YOUR-CUSTOM-NAME&private=1
-http://ulvis.net/P
+
+short url(short link):http://ulvis.net/P
+stats and url preview: http://ulvis.net/P/stats
         
 
 
