@@ -8,6 +8,8 @@ Simple API
 GET requests: http://ulvis.net/api.php?url=YOUR-LONG-URL&custom=YOUR-CUSTOM-NAME&private=1
 
 short url(short link):http://ulvis.net/P
+
+
 stats and url preview: http://ulvis.net/P/stats
         
 
