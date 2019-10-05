@@ -16,6 +16,7 @@ stats and url preview: http://ulvis.net/P/stats
 
 Write API Endpoints:
 GET requests: ulvis.net/API/write/get
+
 POST requets: ulvis.net/api/write/post
 
 Variables:
