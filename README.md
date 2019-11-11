@@ -1,4 +1,6 @@
-Free Url Shortener Api
+
+Free URL Shortener API for Creating Your Short Links
+URL Shortener API Documentation. An API to Generate Memorable URLs. Shout Link makes it easier to share a URL with other people
 
 http://ulvis.net
 site offers a powerful API to interact with other sites.
