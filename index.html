@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>free url shortener</title>
+	<meta name="description" content="A free URL shortening and redirection service that can turn a long URL into a very short and easy to remember URL">
+    <meta name="keywords" content="url, short, redirect, link, url shortener, redirector, short links, seo links, free seo, free url, shorten url, small url, shorten urls, free url redirection, free small url"
+</head>
+
+<body>
+        <div id="main" role="main">
+            <div id="info"><p style="display:none;"></p></div>
+            <form action="http://ulvis.net/API/write/post" method="post" id="mainform" autocomplete="off">
+            <div id="qrCode">
+                <div class="qrTooltip" style="display:none;"></div>
+            </div>            
+                <input type="text" id="url" name="url" value="" placeholder="write or paste an url"/>
+                <input type="submit" id="submit" class="button submit normal" value="shrink" name="submit">
+		<br> <br><div id="options-wrapper" class="row">
+		<ul id="options">
+		<li><a href="#" id="custom_link" class="arrow-center" data-tip="Want to use a custom url?">options</a></li>
+		</ul></div>
+                <div id="tools">
+                    <input type="text" class="inputaData" id="custom" name="custom" maxlength="60" placeholder="optional custom name"/>
+                    <input type="text" class="inputaData" id="password" name="password" maxlength="10" placeholder="password"/>
+                    <input type="number" class="inputaData" id="uses" name="uses" min="0" max="100000" step="10" placeholder="uses" pattern="[0-9]"/>
+                    <input type="text" class="inputaData" id="expire" name="expire" placeholder="expire" readonly="readonly"/>
+                    <span class="checkbox unchecked">
+                        <label>public</label>
+                        <input type="checkbox" name="private" id="private"/>
+                    </span>                
+                </div>
+            </form>
+
+        </div>
+
+</body>
+
+</html>
