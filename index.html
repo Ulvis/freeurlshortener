@@ -6,7 +6,136 @@
 	<meta name="description" content="A free URL shortening and redirection service that can turn a long URL into a very short and easy to remember URL">
     <meta name="keywords" content="url, short, redirect, link, url shortener, redirector, short links, seo links, free seo, free url, shorten url, small url, shorten urls, free url redirection, free small url"
 </head>
+<style>
+	
+	/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul {
+		list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+        
 
+}
+textarea:focus,input:focus {
+    outline:none;
+}
+input::-moz-focus-inner {
+    border: 0;
+}
+
+
+html {
+    background:#fff;
+    font-family:ColaborateThinRegular, Arial, sans-serif;
+}
+
+a,a:active,a:visited {
+    color:#000;
+    text-decoration:none;
+    padding:0 2px;
+    outline:0;
+}
+
+a:hover {
+    background:rgba(0,0,0,0.4);
+}
+
+/* options */
+#options-wrapper {
+    text-align: center;
+}
+#options {
+    text-align: right;
+}
+
+#options li {
+    display: inline-block;
+}
+#options li a {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #666;
+    color: #fff;
+    border-radius: 3px;
+}
+#options li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* tooltips */
+[data-tip] {
+    position:relative;
+}
+
+[data-tip]:before {
+    content:'';
+    display:none;
+    border:5px solid #1a1a1a;
+    border-top-color:#1a1a1a;
+    border-right-color:transparent;
+    border-bottom-color:transparent;
+    border-left-color:transparent;
+    position:absolute;
+    top:-7px;
+    left:10px;
+    z-index:8;
+    font-size:0;
+    line-height:0;
+    width:0;
+    height:0;
+}
+
+[data-tip]:after {
+    display:none;
+    content:attr(data-tip);
+    position:absolute;
+    top:-35px;
+    left:0;
+    padding:5px 8px;
+    background:#1a1a1a;
+    color:#fff;
+    z-index:9;
+    font-size:.75em;
+    height:18px;
+    line-height:18px;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+    white-space:nowrap;
+    word-wrap:normal;
+}
+
+[data-tip]:hover:before,[data-tip]:hover:after {
+    display:block;
+    max-width:800px;
+    overflow:hidden;
+}
+
+.arrow-center[data-tip]:before {
+    left:50%;
+    margin-left:-4.5px;
+}
+	</style>
 <body>
         <div id="main" role="main">
             <div id="info"><p style="display:none;"></p></div>
