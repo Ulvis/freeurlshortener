@@ -15,3 +15,5 @@ Disclaimer -> https://ulvis.net/disclaimer.html
 
 Privacy ->  https://ulvis.net/privacy.html
 
+browser info -> https://ulvis.net/browser/
+
